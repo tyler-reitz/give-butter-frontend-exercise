@@ -48,6 +48,17 @@ Please take some time to answer the following questions. Your answers should go 
 
 - Given more time, what would you suggest for improving the performance of this app?
 
+  I would probably add some debouncing around the search-input so we don't fire
+  of a network request on every character entered. I would then maybe introduce
+  some caching around results and details for each pokemon queried.
+
 - Is there anything you would consider doing if we were to go live with this app?
 
+  Ensure accessibility for users on screen-readers and other assisted
+  technologies. 
+
 - What was the most challenging aspect of this work for you (if at all)?
+
+  I actually had a lot of fun completeing this challenge. The most challenging
+  part was flattening the evolution chain followed by getting the styling just
+  right. 
